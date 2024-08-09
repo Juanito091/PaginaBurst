@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    background: white;
+    padding-bottom: 6rem;
+}
+/*-INICIO-*/
+.nav-link{
+    font-size: 14px;
+}
+
+.navegacion{
+    display: grid;
+    grid-template-columns: 18% 18% 28% 18% 18%; 
+    height: 85%;
+    margin-top: 20px;
+}
+.navegacion a{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+}
+.navegacion1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.navegacion1 a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+}
+.portada{
+    background-image: url(/PaginaBurst/assets/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedor-head{
+    background-image: url(/PaginaBurst/assets/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    container-type: inline-size;
+    max-width: 100%;
+    height: 900px;
+}
+.btn1{
+    background-color: black;
+    margin-top: auto;
+    padding: 12px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-decoration: white;
+}
+footer{
+    position: absolute;
+    background-color: black;
+    padding: 1rem 2rem;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    bottom: 0;
+}
+.footer_texto{
+    color: white;
+}
+
+/*-PRODUCTOS-*/
+.titulo{
+    font-size: 23px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+}
+.titulo1{
+    font-size: 23px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-card{
+    width: auto;
+    height: 25rem;
+    border-radius: .3125rem;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436);
+    position: relative;
+    margin: 30px;
+}
+.contenedor-card h3{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.contenedor-card .producto-img{
+    width: 100%;
+    height: 80%;
+}
+.contenedor-card .producto-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.parrafo p{
+    overflow: hidden;
+}
+.contenedor-productos{
+    font-size: 12px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+/*-DEVOLUCIÓN-*/
+.contenedor-dev{
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+.dev{
+    text-decoration: none;
+    justify-content: center;
+    width: 600px;
+}
+.dev h2{
+    font-size: 23px;
+    margin: 30px;
+    text-align: center;
+}
+.dev p{
+    font-size: 18px;
+    margin: 30px;
+    line-height: 1.5;
+    text-align: center;
+    align-items: baseline;
+}
+.wsp{
+    color: black;
+    text-decoration: none;
+}
+/*-NOSOTROS-*/
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 80px auto;
+}
+.heading h1{
+    font-size: 23px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.heading h1::after{
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.contenedor-nos{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+}
+.nos{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nos-img{
+    display: flex;
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.nos-img img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;  
+}
+.nos-img:hover img{
+    transform: scale(1.2);
+}
+.nos-content{
+    margin-right: 25px;
+    flex: 1;
+}
+.nos-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    
+}
+.nos-content p{
+    padding: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+/*-CONTACTO-*/
+.contenedor-con{
+    height: 75dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.con{
+    display: flex;
+    flex-direction: column;
+
+}
+.con h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.con-icon{
+    display: flex;
+    padding: 10px;
+}
+.con a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+/*-MEDIA-*/
+@media screen and (max-width: 768px){
+    .heading{
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .heading h1{
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    .contenedor-nos{
+        padding: 0px;
+    }
+    .nos{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .nos-img{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .nos-content h2{
+        font-size: 10px;
+    }
+    .nos-content p{
+        padding: 0px;
+        font-size: 10px;
+    }
+    .logo{
+        max-width: 100px;
+    }
+    .b{
+        visibility: hidden; 
+    }
+    .contenedor-head{
+        height: 600px;
+    }
+    button{
+        max-width: 100px;
+    }
+    .dev h2{
+        font-size: 10px;
+    }
+    .dev p{
+        font-size: 10px;
+    }
+    .contenedor-dev{
+        margin: auto;
+    }
+    .btn1{
+        font-size: 10px;  
+    }
+    .navegacion{
+        grid-template-columns: 10% 10% 60% 10% 10%;
+    }
+    footer{
+        padding: .5rem 1rem;
+    }
+    .footer_texto{
+        font-size: 10px;
+    }
+    .titulo{
+        font-size: 10px;
+        margin: 20px auto;
+    }
+    .titulo1{
+        font-size: 10px;
+        margin: 20px;
+        padding-top: 10px;
+    }
+}
+
