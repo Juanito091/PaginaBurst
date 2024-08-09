@@ -1,8 +1,8 @@
-#BURST
+# BURST
 
 SEGUNDA PREENTREGA DESARROLLO WERB.
 
-##Como iniciar proyecto
+## Como iniciar proyecto
 
 Para iniciar el proyecto clonar en una carperta el repositorio
 
