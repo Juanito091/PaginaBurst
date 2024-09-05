@@ -1,0 +1,28 @@
+@media screen and (max-width: 425px) {
+    .contenedor-productos {
+        padding-left: 37.5px;
+        padding-right: 37.5px;
+
+        .contenedor-card {
+            height: 10rem;
+            padding: 0;
+
+            h3 {
+                margin: 2px;
+                font-size: 10px;
+            }
+        }
+    }
+
+    .contenedor-dev {
+        .dev {
+            h2 {
+                font-size: 12px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
