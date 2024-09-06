@@ -1,0 +1,49 @@
+@media screen and (max-width: 1024px){
+    .contenedor-productos {
+        padding-left: 37.5px;
+        padding-right: 37.5px;
+
+        .contenedor-card {
+            height: 16rem;
+            padding: 0;
+
+            h3 {
+                margin: 2px;
+                font-size: 12px;
+            }
+        }
+    }
+    .contenedor-dev {
+        .dev {
+            h2 {
+                font-size: 14px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .contenedor-nos {
+        padding: 0;
+        
+        .nos {
+
+            .nos-img {
+                width: auto;
+                height: 360px;
+            }
+
+            .nos-content {
+                h2 {
+                    font-size: 14.5px;
+                }
+
+                p {
+                    padding: 0;
+                    font-size: 14.5px;
+                }
+            }
+        }
+    }
+}
